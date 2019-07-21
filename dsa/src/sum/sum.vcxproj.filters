@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{f6000b9f-57c3-4916-8ca1-8ec9e1bdba4b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{a22e7006-d884-4cc1-bfa0-7c002a8321f1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UniPrint\print_int_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reverse\reverse-iterative-1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reverse\reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\random\Shuffle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sum0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sum1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sum2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\UniPrint\print_int_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\reverse\reverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\random\Shuffle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
